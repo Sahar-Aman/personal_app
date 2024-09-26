@@ -22,7 +22,7 @@
     <ion-card>
       <ion-card-header>
           <img src="https://images2.goabroad.com/image/upload/c_fill,g_faces:auto,fl_progressive,h_675,w_1200/v1/images2/program_content/prime-is-there-really-a-difference-between-travelers-and-tourists-1468307707.png"
-          alt="Profile Image"  style="width: 280px; height: auto;" >
+          alt="Profile Image"  style="width: 280px; height: auto; border-radius: 50%;" >   <!--no es circular es un ovalo-->
         </ion-card-header>
     </ion-card>
 
@@ -35,8 +35,23 @@
   </ion-card>
 
   <ion-card>
+    <ion-card-header>
+      <ion-card-title>linkedin</ion-card-title>
+    </ion-card-header>
     <ion-card-content>
-      <a href="https://drive.google.com/file/d/12Ml5rRfKpDyr6nFBRzyISLfP4ehJhRKT/view?usp=drive_link" target="_blank">My resume</a>
+      <ion-button fill="clear" href="https://www.linkedin.com/in/saharamanmohamadi" target="_blank">
+        <ion-icon slot="start" name="logo-linkedin"></ion-icon>
+        LinkedIn
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+  
+   <!-- un button para descargar el CV -->
+   <ion-card>
+    <ion-card-content>
+      <a href="https://drive.google.com/file/d/12Ml5rRfKpDyr6nFBRzyISLfP4ehJhRKT/view?usp=drive_link" target="_blank">
+        <ion-button expand="block">Descargar mi Resume</ion-button>   <!--aqui esta el button-->
+      </a>
     </ion-card-content>
   </ion-card>
 
